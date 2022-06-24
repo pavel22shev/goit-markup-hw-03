@@ -58,12 +58,15 @@ ul {
 
 /* header */
 
-.header-container {
-  display: flex;
-  align-items: center;
+.header-section {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: #ECECEC;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .link-logo {
@@ -132,7 +135,7 @@ ul {
 
 /* hero */
 
-.hero-container {
+.hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -175,7 +178,7 @@ ul {
 
 /* advanteges */
 
-.advanteges-container {
+.advanteges-section {
   padding-top: 94px;
   padding-bottom: 47px;
 }
@@ -225,6 +228,11 @@ ul {
 
 /* what we do */
 
+.whaywedo-section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .whatwedo-title {
   font-weight: 700;
   font-size: 36px;
@@ -245,12 +253,18 @@ ul {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
+}
+
+.name-card {
+  padding-left: auto;
+  padding-right: auto;
 }
 
 .name {
@@ -290,6 +304,8 @@ ul {
 
 .footer-section {
   background-color: #2f303a;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .footer-logo {
@@ -322,24 +338,13 @@ ul {
   margin-bottom: 9px;
 }
 
-.footer-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 60px;
-  padding-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  /* outline: 1px solid red; */
-}
-
 /* .footer-list-contact{
   padding-bottom: 60px;
 } */
 
 /* портфолио */
 
-.portfolio-container {
+.portfolio-section {
   padding-top: 94px;
   padding-bottom: 94px;
   
@@ -382,8 +387,18 @@ ul {
   background-color: var(--accent-color);
 }
 
+.about-portfolio {
+  display: inline-block;
+  padding: auto;
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+
+.portgolio-img {
+  margin-bottom: 20px;;
+}
+
 .portfolio-title {
-  margin-left: 24px;
   margin-bottom: 6px;
   font-weight: 700;
   font-size: 18px;
@@ -393,8 +408,6 @@ ul {
 }
 
 .portfolio-discription {
-  margin-left: 24px;
-  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--title-text-color);
