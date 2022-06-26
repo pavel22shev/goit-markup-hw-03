@@ -265,6 +265,8 @@ ul {
 .name-card {
   padding-left: auto;
   padding-right: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .name {
@@ -275,12 +277,13 @@ ul {
   margin-bottom: 10px;
 }
 
+
 .prof {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   color: var(--title-text-color);
-  margin-bottom: 30px;
+
 }
 
 .team-list {
@@ -296,9 +299,6 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-img {
-  margin-bottom: 30px;
-}
 
 /* footer */
 
@@ -388,14 +388,10 @@ ul {
 }
 
 .about-portfolio {
-  display: inline-block;
-  padding: auto;
+  display: block;
+  padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 20px;
-}
-
-.portgolio-img {
-  margin-bottom: 20px;;
 }
 
 .portfolio-title {
